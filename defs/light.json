@@ -1,0 +1,151 @@
+{
+    "name": "light",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": "omni",
+    "radius": 10,
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [
+    { 
+        "type": "range",
+        "location": { "x": 12, "y": 0 },
+        "direction": 0
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.7
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.7
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.6
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.6
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.55
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.55
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.5
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.5
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.45
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.45
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.4
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.4
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.35
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.35
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.3
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.3
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.25
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.25
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.2
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.2
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.15
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.15
+    },
+    { 
+      "type": "range",
+      "location": { "x": 5, "y": -5 },
+      "direction": 0.1
+    },
+    { 
+      "type": "range",
+      "location": { "x": 5, "y": 5 },
+      "direction": -0.1
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": -5 },
+        "direction": 0.05
+    },
+    { 
+        "type": "range",
+        "location": { "x": 5, "y": 5 },
+        "direction": -0.05
+    }            
+    ],
+    "mass": 1,    
+    "controller": "lib/light.so"
+}

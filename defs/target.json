@@ -1,0 +1,151 @@
+{
+    "name": "target",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": "omni",
+    "radius": 10,
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -3.14
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.49
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.49
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.54
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.54
+    },    
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.59
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.59
+    },
+    { 
+      "type": "range",
+      "location": { "x": 0, "y": 0 },
+      "direction": 2.64
+    },
+    { 
+      "type": "range",
+      "location": { "x": 0, "y": 0 },
+      "direction": -2.64
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.69
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.69
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.74
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.74
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.79
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.79
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.84
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.84
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.89
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.89
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.94
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.94
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 2.99
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -2.99
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 3.04
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -3.04
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": 3.09
+    },
+    { 
+        "type": "range",
+        "location": { "x": 0, "y": 0 },
+        "direction": -3.09
+    }
+    ],
+    "mass": 1,    
+    "controller": "lib/target.so"
+}

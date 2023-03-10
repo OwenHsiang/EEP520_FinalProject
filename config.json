@@ -1,0 +1,86 @@
+{
+    "name": "Ray Optics Simulation. Press A, D to move the lens (X_lens from -125 to inf).",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [
+        {
+            "name": "reset",
+            "label": "Reset (X_lens: 2f)",
+            "style": {
+                "background": "white",
+                "borderColor": "black"
+            }
+        },
+        {
+            "name": "f",
+            "label": "Light source is on the focal point (X_lens: f)",
+            "style": {
+                "background": "white",
+                "borderColor": "black"
+            }
+        }
+    ],
+    "agents": [
+        {
+            "definition": "defs/target.json",
+            "style": {
+                "fill": "red",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 250,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/label.json",
+            "style": {
+                "fill": "blue",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 250,
+                "y": -300,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/light.json",
+            "style": {
+                "fill": "gold",
+                "stroke": "black"
+            },
+            "position": {
+                "x": -250,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/lens.json",
+            "style": {
+                "fill": "aquamarine",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/path.json",
+            "style": {
+                "fill": "yellow",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        }
+    ],
+    "statics": []
+}
