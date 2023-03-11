@@ -5,12 +5,20 @@ The goal of this project is to simualte the image formation by convex lens, as w
 
 ## Key Challenges
 
-Describe some of the key challenges faced during the development of this project and how they were addressed. This could include technical challenges or challenges related to data or resources.
+Describe some of the key challenges faced during the development of this project.
 
-- **Challenge 1:** Description of challenge 1 and how it was addressed
-- **Challenge 2:** Description of challenge 2 and how it was addressed
-- **Challenge 3:** Description of challenge 3 and how it was addressed
+- **Challenge 1: Calculate the relative position between lens and image.**
 
+To simulate the image formation, some principles of ray tracing must to be followed:
+1. When a ray strikes convex lens obliquely at its optical centre, it continues to follow its path.
+2. When a ray parallel to the principal axis strikes convex lens, the refracted ray will pass through a focus on the principal axis.
+3. When a ray passing through focus strikes convex lens, the refracted ray will pass parallel to the principal axis.
+
+ According to lens maker's equation, 1/X_object + 1/X_image = 1/f
+
+- **Challenge 2: Emit the calculated result to image and reposition it.** 
+
+Since the position of lens is unsteady, the position of image also have to be updated spontaneously. Here use watch event to receive the updated result.
 
 ## Installation
 
@@ -18,17 +26,21 @@ To run this project, you must have Docker installed on your system. Follow these
 
 1. Clone the repository to your local machine using `git clone <repository-url>`.
 2. Navigate to the project directory.
-3. Build the Docker container using `docker build -t <container-name> .`.
-4. Run the Docker container using `docker run -p <host-port>:<container-port> <container-name>`.
+3. Build the Docker.
+4. Run the Docker container using docker run -p80:80 -p8765:8765 -v $PWD/EEP520_FinalProject:/source -it klavins/enviro:v1.4 bash
 
 
-## Usage
+## Run the project
 
-Describe how to use the project, including any necessary input files, expected output files, and parameters. Include examples of command-line usage, if applicable.
+Follow the steps to use the project.
 
-- **Step 1:** Description of step 1
-- **Step 2:** Description of step 2
-- **Step 3:** Description of step 3
+- **Step 1:** esm start
+- **Step 2:** make
+- **Step 3:** enviro
+- **Step 4:** To view the simulation, please open a web browser and type in http://localhost/
+
+##Code
+
 
 
 ## Acknowledgments
