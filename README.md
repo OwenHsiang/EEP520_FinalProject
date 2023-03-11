@@ -3,6 +3,8 @@ Winter2023 EEP520 Final Project
 # Overview
 The goal of this project is to simualte the image formation by convex lens, where the rays converge after falling on the convex lens. The parameters are already set as constant, including focal length and the position of light source. Users can move the lens left or right by pressing `A` or `D`, and the simulation result is updated accordingly. Furthermore, the buttons `Reset` and `Light source is on the focal point` can reposition the lens directly.
 
+![image](https://github.com/OwenHsiang/EEP520_FinalProject/blob/main/rayoptics.jpg)
+
 ## Key Challenges
 
 Some of the key challenges faced during the development of this project.
